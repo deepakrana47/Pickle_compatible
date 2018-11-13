@@ -26,8 +26,8 @@ def make_pkl_compatible(src_file, dest_file=None):
         print('Version to old: currently working on it')
 
 if __name__=="__main__":
-    if len(sys.argv) > 2 and len(sys.argv) < 3:
-        print("Not a proper usage\n\tusage:\n\t\tpython make_pkl_compatible source_filename\n\t\tpython pickle_2to3 source_filename destination_filename")
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
+        print("Not a proper usage\n\tusage:\n\t\t$ python pickle_compatible.py source_filename\n\t\t$ python pickle_compatible.py source_filename destination_filename")
         exit()
 
     if len(sys.argv) == 2:
