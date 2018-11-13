@@ -1,2 +1,2 @@
 # Pickle_compatible
-For resolving the issue of pickle of different version of python
+For resolving the issue of pickle in different version of python
